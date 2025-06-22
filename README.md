@@ -120,8 +120,38 @@ CognitiveEvaluatorSystem/
 - 🧠 **Base de Datos Persistente**: Implementar almacenamiento seguro de usuarios, resultados históricos y progreso cognitivo a lo largo del tiempo.
 - ⭐ **Sistema de Recomendación Inteligente**: Incorporar técnicas de recomendación híbridas para afinar la personalización de contenido a partir del historial de uso y feedback del usuario.
 
+## ⚙️ Instalación y Ejecución
 
----
+1. Clonar el repositorio:
+
+git clone https://github.com/TuUsuario/TuRepo.git
+cd TuRepo
+
+2. Instalar dependencias:
+
+pip install -r requirements.txt
+
+3. Agregar archivo .env con tus claves API y configuración:
+
+GOOGLE_API_KEY=tu_api_key
+SEARCH_ENGINE_ID=tu_id_busqueda
+VISUALIZAR_DATOS_PASSWORD1=clave_visualización
+
+4. Ejecutar la aplicación:
+
+streamlit run app.py
+
+
+
+## 🔐 **Advertencia de seguridad sobre claves/API**
+
+
+⚠️ **Importante**: No subas tus claves personales ni credenciales (`.env`, `credenciales_google.json`) al repositorio. Añadí estas rutas al archivo `.gitignore`.
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT.
+
 
 ## 👥 Autores
 
