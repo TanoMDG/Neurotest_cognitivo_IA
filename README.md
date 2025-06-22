@@ -124,8 +124,8 @@ CognitiveEvaluatorSystem/
 
 1. Clonar el repositorio:
 
-git clone https://github.com/TuUsuario/TuRepo.git
-cd TuRepo
+- git clone https://github.com/TuUsuario/TuRepo.git
+- cd TuRepo
 
 2. Instalar dependencias:
 
@@ -133,14 +133,45 @@ pip install -r requirements.txt
 
 3. Agregar archivo .env con tus claves API y configuración:
 
-GOOGLE_API_KEY=tu_api_key
-SEARCH_ENGINE_ID=tu_id_busqueda
-VISUALIZAR_DATOS_PASSWORD1=clave_visualización
+- GOOGLE_API_KEY=tu_api_key
+- SEARCH_ENGINE_ID=tu_id_busqueda
+- VISUALIZAR_DATOS_PASSWORD1=clave_visualización
 
 4. Ejecutar la aplicación:
 
 streamlit run app.py
 
+
+### 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/TuUsuario/TuRepo.git
+cd TuRepo 
+```
+### 2️⃣ Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Configurar archivo .env
+
+Crear un archivo .env en la raíz del proyecto con el siguiente contenido (reemplazar con tus claves reales):
+
+```bash
+
+GOOGLE_API_KEY=tu_api_key
+SEARCH_ENGINE_ID=tu_id_busqueda
+VISUALIZAR_DATOS_PASSWORD1=clave_visualización
+```
+
+### 4️⃣ Ejecutar la aplicación
+
+```bash
+streamlit run app.py
+```
+
+### ✅ *Asegurate de tener Python 3.10+ y `pip` correctamente instalados antes de comenzar.*
 
 
 ## 🔐 **Advertencia de seguridad sobre claves/API**
