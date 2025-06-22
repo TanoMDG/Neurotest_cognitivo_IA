@@ -122,25 +122,6 @@ CognitiveEvaluatorSystem/
 
 ## ⚙️ Instalación y Ejecución
 
-1. Clonar el repositorio:
-
-- git clone https://github.com/TuUsuario/TuRepo.git
-- cd TuRepo
-
-2. Instalar dependencias:
-
-pip install -r requirements.txt
-
-3. Agregar archivo .env con tus claves API y configuración:
-
-- GOOGLE_API_KEY=tu_api_key
-- SEARCH_ENGINE_ID=tu_id_busqueda
-- VISUALIZAR_DATOS_PASSWORD1=clave_visualización
-
-4. Ejecutar la aplicación:
-
-streamlit run app.py
-
 
 ### 1️⃣ Clonar el repositorio
 
