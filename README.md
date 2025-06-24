@@ -111,9 +111,12 @@ CognitiveEvaluatorSystem/
 
 ## 🎥 Demo en Video
 
-[![Ver Demo](assets/screenshots/miniatura_video.PNG)](https://drive.google.com/file/d/16kdC4CYzvgq7PVWIdOWTg4UPMiWYe-iv/view?usp=sharing)
-
-*Click en la imagen para ver el video demostrativo del funcionamiento del sistema NeuroTest.*
+<p align="center">
+  <a href="https://drive.google.com/file/d/16kdC4CYzvgq7PVWIdOWTg4UPMiWYe-iv/view?usp=sharing">
+    <img src="assets/screenshots/miniatura_video.PNG" alt="Demo en video" width="400"/>
+  </a>
+</p>
+<p align="center">🎥 Click en la imagen para ver el video demostrativo del funcionamiento del sistema NeuroTest.</p>
 
 ---
 
