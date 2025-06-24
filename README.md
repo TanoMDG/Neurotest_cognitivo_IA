@@ -63,24 +63,32 @@
 ## 📂 Estructura del Proyecto
 
 ```
+
 CognitiveEvaluatorSystem/
-│
-├── app.py / main.py # Inicio de la aplicación en Streamlit
-│
+├── app.py / main.py  # Inicio de la aplicación en Streamlit
 ├── model/
-│ └── classifier.py # Entrenamiento y predicción con Random Forest
-│
+│   └── classifier.py  # Entrenamiento y predicción con Random Forest
 ├── data/
-│ └── generator.py # Generación de dataset para entrenamiento obteniendo la info de la lectura de un archivo csv con datos reales anónimos 
-│
+│   └── generator.py  # Generación de dataset para entrenamiento con datos anónimos
 ├── utils/
-│ ├── test_data.py # Preguntas del test y sus pesos
-│ ├── interaccion.py # Evaluación y clasificación de respuestas
-│ ├── google_search.py # Recomendación de recursos vía Google Search
-│ ├── html_generator.py # HTML con resumen de resultados
-│ ├── export_pdf.py # Exportación de reportes en PDF
-│ ├── visualizacion.py # Gráfico polar del rendimiento
-│ └── sheets.py # Integración con Google Sheets
+│   ├── test_data.py        # Preguntas del test y sus pesos
+│   ├── interaccion.py      # Evaluación y clasificación de respuestas
+│   ├── google_search.py    # Recomendación de recursos vía Google Search
+│   ├── html_generator.py   # HTML con resumen de resultados
+│   ├── export_pdf.py       # Exportación de reportes en PDF
+│   ├── visualizacion.py    # Gráfico polar del rendimiento
+│   └── sheets.py           # Integración con Google Sheets
+├── assets/
+│   ├── screenshots/
+│   │   ├── miniatura_video.PNG
+│   │   ├── 01_inicio_datos_personales.png
+│   │   └── ... (más capturas)
+│   └── demo_video/
+│       └── demo_neurotest.mp4
+├── informe_usuarios/
+│   └── informe_neurotest_usuario.pdf
+└── reportes/
+    └── reporte_leo_rey.pdf
 
 
 ---
@@ -98,6 +106,24 @@ CognitiveEvaluatorSystem/
   - Video: “Estrategias de lenguaje para personas con deterioro leve”
   - Juego interactivo: “Estimulación cognitiva para razonamiento lógico”
 ```
+
+---
+
+## 🎥 Demo en Video
+
+[![Ver Demo](assets/screenshots/miniatura_video.PNG)](https://drive.google.com/file/d/16kdC4CYzvgq7PVWIdOWTg4UPMiWYe-iv/view?usp=sharing)
+
+*Click en la imagen para ver el video demostrativo del funcionamiento del sistema NeuroTest.*
+
+---
+
+## 📄 Informes Generados
+
+- 📘 [Informe general de usuario (PDF)](https://drive.google.com/file/d/1eU462HwDJAu7_XCrTD_UhrDbWehUYYL2/view?usp=sharing)  
+  Documento explicativo con la experiencia de uso del test cognitivo, ilustraciones, etapas y funcionalidades.
+
+- 🧾 [Reporte simulado generado por el sistema (PDF)](https://drive.google.com/file/d/17JAaUC76zAjDV5aBuFDkFQQcBEfoG7Ix/view?usp=sharing)  
+  Ejemplo real de reporte personalizado generado por la aplicación para un usuario ficticio (Leo Rey).
 
 ---
 

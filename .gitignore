@@ -9,7 +9,7 @@ credenciales_google.json
 # Archivos temporales o de salida
 *.pyc
 *.pyo
-*.pdf
+#*.pdf
 *.html
 reporte.pdf
 temp_reporte.html
