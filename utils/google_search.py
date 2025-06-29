@@ -1,8 +1,15 @@
-import requests
+# google_search.py
 
-# Configura tu API Key y el ID del motor de búsqueda
-API_KEY = "AIzaSyBOKid7RklODTET2D0jo-Nvy2KZoSb_3o4"
-SEARCH_ENGINE_ID = "c7b6f8a5119744d7b"
+import os
+import requests
+from dotenv import load_dotenv
+# Cargar variables del archivo .env
+load_dotenv()
+
+# Leer las claves de entorno
+API_KEY = os.getenv("GOOGLE_API_KEY")
+SEARCH_ENGINE_ID = os.getenv("SEARCH_ENGINE_ID")
+
 
 def buscar_recursos(consulta, num_resultados=5):
     """Realiza una búsqueda en Google y devuelve una lista de recursos educativos."""
